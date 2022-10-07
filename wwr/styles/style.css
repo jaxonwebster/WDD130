@@ -1,0 +1,41 @@
+<body>
+    <div id="content"> 
+    max-width: 1600px;
+    left-margin: 0 auto;
+    right-margin: 0 auto;
+    top-margin: 0;
+    bottom-margin: 0;
+    nav a text-align: center;
+    #hero-msg h1, #hero-msg h4 text-align: center;
+    .button-box text-align: center;
+    main section text-aling: center;
+    #background {
+        height: 725px;
+    }
+    body {
+        background-color:#6B6054
+    }
+    header {
+        background-color:#929487
+    }
+    nav a:hover {
+        background-color:#A1B0AB
+    }
+    .book:hover, .join:hover {
+        background-color:#DDD1C7
+    }
+    #background {
+        background-color:#DDD1C7
+    }
+    .msg {
+        background-color:#6B6054
+    }
+    footer {
+        background-color:#929487
+    }
+
+        <header>
+    . . .
+        </footer>
+    </div>
+</body>
