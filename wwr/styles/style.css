@@ -31,7 +31,7 @@
     }
     footer {
         background-color:#929487;
-        color: white;
+        color: black;
     }
     nav a {
         background-color:#DDD1C7;
@@ -43,11 +43,11 @@
     }
     h4 {
         background-color: #DDD1C7;
-        color: #6B6054;
+        color: black;
     }
     .book, .join {
         background-color:#DDD1C7;
-        color: #A1B0AB;
+        color: black;
     }
     .msg h2{
         background-color: #A1B0AB;
@@ -64,4 +64,10 @@
     footer a:hover {
         background-color: #6B6054;
         color: white;
+    }
+    footer p {
+        font-size: 1.2em;
+    }
+    footer p a:hover {
+        text-decoration: underline;
     }
