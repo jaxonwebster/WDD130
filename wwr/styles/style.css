@@ -46,7 +46,7 @@
         color: black;
     }
     .book, .join {
-        background-color: black;
+        background-color:#DDD1C7;
         color: #A1B0AB;
     }
     .msg h2{
@@ -55,11 +55,11 @@
     }
     .msg p {
         background-color: #DDD1C7;
-        color: black;
+        color:#6B6054;
     }
     footer a {
-        background-color: #6B6054;
-        color: black;
+        background-color: #DDD1C7;
+        color: #6B6054;
     }
     footer a:hover {
         background-color: #6B6054;
