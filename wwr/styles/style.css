@@ -25,9 +25,11 @@
     }
     #background {
         background-color:#DDD1C7;
+        line-height: 1.5em;
     }
     .msg {
         background-color: black;
+        line-height: 1.5em;
     }
     footer {
         background-color:#929487;
@@ -40,6 +42,9 @@
     .home-title {
         background-color:#6B6054;
         color: black;
+        font-family: 'Fuzzy Bubble', 'Raleway', sans-serif;
+        font-size: 2em;
+
     }
     h4 {
         background-color: #DDD1C7;
@@ -48,6 +53,8 @@
     .book, .join {
         background-color:white;
         color: black;
+        font-family: 'Fuzzy Bubble', 'Raleway', sans-serif;
+        font-size: 18px;
     }
     .msg h2{
         background-color: #A1B0AB;
@@ -56,6 +63,8 @@
     .msg p {
         background-color: #DDD1C7;
         color:#6B6054;
+        font-family: 'Fuzzy Bubble', 'Raleway', sans-serif;
+        font-size: .8em;
     }
     footer a {
         background-color: #DDD1C7;
