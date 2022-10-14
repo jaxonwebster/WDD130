@@ -11,7 +11,14 @@
     }
     body {
         background-color:#929487;
-    }
+        font-family: "Raleway", "Fuzzy Bubbles";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
     header {
         background-color:#6B6054;
     }
@@ -34,10 +41,13 @@
     footer {
         background-color:#929487;
         color: black;
+        padding: 25px 50px;
     }
     nav a {
         background-color:#DDD1C7;
         color:#6B6054;
+        text-align: center;
+        padding: 35px;
     }
     .home-title {
         background-color:#6B6054;
@@ -55,6 +65,8 @@
         color: black;
         font-family: 'Fuzzy Bubble', 'Raleway', sans-serif;
         font-size: 18px;
+        text-align: center;
+        padding: 15px 30px;
     }
     .msg h2{
         background-color: #A1B0AB;
@@ -65,6 +77,8 @@
         color:#6B6054;
         font-family: 'Fuzzy Bubble', 'Raleway', sans-serif;
         font-size: .8em;
+        text-align: center;
+        padding: 35px;
     }
     footer a {
         background-color: #DDD1C7;
@@ -79,4 +93,10 @@
     }
     footer p a:hover {
         text-decoration: underline;
+    }
+    #logo_link {
+        padding: 5px;
+    }
+    .icon {
+        padding: 10px;
     }
