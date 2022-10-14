@@ -42,6 +42,7 @@ h2 {
         background-color:#929487;
         color: black;
         padding: 25px 50px;
+        margin-top: 200px;
     }
     nav a {
         background-color:#DDD1C7;
@@ -54,7 +55,7 @@ h2 {
         color: black;
         font-family: 'Fuzzy Bubble', 'Raleway';
         font-size: 2em;
-
+        margin-top: 10px;
     }
     h4 {
         background-color: #DDD1C7;
@@ -67,6 +68,8 @@ h2 {
         font-size: 18px;
         text-align: center;
         padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
     }
     .msg h2{
         background-color: #A1B0AB;
@@ -99,4 +102,13 @@ h2 {
     }
     .icon {
         padding: 10px;
+    }
+    .rivers-card, .camping-card, .rapids-card {
+    margin-top: 200px 0;
+    }
+    .card-img {
+        border-radius: 10px solid #d9c2a3
+    }
+    main section img {
+        box-sizing: border-box;
     }
