@@ -37,12 +37,12 @@ h2 {
         line-height: 1.5em;
     }
     .msg {
-        background-color: black;
+        background-color: #DDD1C7;
         line-height: 1.5em;
     }
     footer {
         background-color:#929487;
-        color: black;
+        color: #DDD1C7;
         padding: 25px 50px;
         margin-top: 200px;
         font-family: "Abel", "Caveat";
