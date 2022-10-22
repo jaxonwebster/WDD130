@@ -35,39 +35,39 @@
   /* Activity 2 styles */ 
   .content2 {
     /* This is the parent of the activity 2 boxes. */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-}
-.red2 { 
-  width: 200px; 
-  height: 200px;
-  background-color: red; 
-  grid-column-start: 1;
-  margin-right: 170px;
-
-} 
-.green2 {
-  width: 200px; 
-  height: 200px; 
-  background-color: green; 
-  margin-left: -600px;
-  margin-top: 85px;
-}  
-.yellow2 {
-  width: 200px; 
-  height: 200px; 
-  background-color: gold; 
-  margin-left: 150px;
-  margin-top: -111px;
-}
-.blue2 {
-  width: 200px; 
-  height: 200px; 
-  background-color: blue; 
-  margin-top: 1%;
-  margin-left: -400px;
-} 
+    position: relative; /*added this*/
+  }
+  .red2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative; /*added this*/
+    left: 150px; /*added this*/
+  }
+  .green2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative; /*added this*/
+    left: 200px; /*added this*/
+    top: -50px; /*added this*/
+  }
+  .yellow2 {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    position: relative; /*added this*/
+    left: 250px; /*added this*/
+    top: -100px; /*added this*/
+  }
+  .blue2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative; /*added this*/
+    left: 300px; /*added this*/
+    top: -150px; /*added this*/
+  }
   /* Activity 3 styles */ 
   .content3 {
     /* This is the parent of the activity 3 boxes. */
@@ -95,7 +95,7 @@
 .yellow3 {
     width: 100%;
     height: 200px;
-    background-color: gold;
+    background-color: yellow;
     grid-column-start: 2;
     grid-column-end: 2;
 }
@@ -129,7 +129,7 @@
   height: 100px; 
   margin-left: 200px;
   margin-top: -200px;
-  background-color: gold; 
+  background-color: yellow; 
 } 
 .blue4 {
   width: 200px; 
@@ -161,7 +161,7 @@
   height: 275px; 
   margin-left: -40px;
   margin-top: 150px;
-  background-color: gold; 
+  background-color: yellow; 
   
 } 
 .blue5 {
@@ -196,7 +196,7 @@
   height: 350px; 
   margin-left: 390px;
   margin-top: 175px;
-  background-color: gold; 
+  background-color: yellow; 
 } 
 .blue6 {
   width: 400px; 
