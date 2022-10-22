@@ -39,26 +39,26 @@
     grid-template-columns: 100px 100px 100px 100px 100px;
   }
   .red2 {
-    width: 200px; 
-    height: 200px; 
+    width: 100px; 
+    height: 100px; 
     background-color: red; 
 
   } 
   .green2 { 
-    width: 200px; 
-    height: 200px; 
+    width: 100px; 
+    height: 100px; 
     background-color: green; 
     margin-top: 100px;
   } 
   .yellow2 {
-    width: 200px; 
-    height: 200px; 
+    width: 100px; 
+    height: 100px; 
     background-color: gold; 
     margin-top: 200px;
   } 
   .blue2 {
-    width: 200px; 
-    height: 200px; 
+    width: 100px; 
+    height: 100px; 
     background-color: blue; 
     margin-top: 300px;
   } 
