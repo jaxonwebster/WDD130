@@ -63,6 +63,13 @@ h2 {
         text-align: center;
         padding: 35px;
     }
+    .home-grid{
+        display:grid;
+        grid-template-columns: repeat(10, 1fr);
+    }
+    .home-grid img{
+        box-sizing: border-box;
+    }
     .home-title {
         background-color:#6B6054;
         color: black;
@@ -110,9 +117,6 @@ h2 {
     footer p a:hover {
         text-decoration: underline;
     }
-    #logo_link {
-        padding: 5px;
-    }
     .icon {
         padding: 10px;
     }
@@ -126,6 +130,9 @@ h2 {
     }
     main section img {
         box-sizing: border-box;
+    }
+    .logo{
+        width: 80px;
     }
     nav {
         display: flex;
@@ -151,11 +158,17 @@ h2 {
         grid-row: 1/2;
         margin-top: 100px;
     }
-    #hero-msg h4 {
+    #hero-msg h4, #hero-msg h1 {
         color: white;
+        text-align: center;
+    }
+    #hero-img{
+        margin: 0 auto;
+        width: 100%;
     }
     .card-img, .mountains {
         width: 100%;
+        box-shadow: 5px 5px 10px #6f7364;
     }
     .rivers-card {
         grid-column: 2/4;
