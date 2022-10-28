@@ -134,6 +134,9 @@ h2 {
     .logo{
         width: 80px;
     }
+    .sitemap > div {
+        text-align: center;
+      }
     nav {
         display: flex;
         justify-content: space-around;
@@ -183,8 +186,8 @@ h2 {
         grid-row: 2/3;
     }
     .mountains {
-        grid-column: 2-7;
-        grid-row: 5-8;
+        grid-column: 2/7;
+        grid-row: 5/8;
         box-shadow: 5px 5px 10px #6f7364;
     }
     .card-img:hover {
