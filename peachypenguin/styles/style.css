@@ -100,11 +100,13 @@ h2 {
     .msg h2{
         background-color: #F9DBBD;
         color: #0B3954;
+        font-family: 'Caveat';
+        font-size: 1.5em;
     }
     .msg p {
         background-color: #F9DBBD;
         color:#0B3954;
-        font-family: 'Caveat', 'Abel';
+        font-family: 'Abel','Caveat';
         font-size: .8em;
         text-align: center;
         padding: 30px;
@@ -118,7 +120,7 @@ h2 {
         color: white;
     }
     footer p {
-        font-size: 2.0em;
+        font-size: 1.0em;
     }
     footer p a:hover {
         text-decoration: underline;
