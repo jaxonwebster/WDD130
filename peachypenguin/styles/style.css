@@ -42,13 +42,12 @@ h2 {
     }
     .msg {
         background-color: #F9DBBD;
-        line-height: 1.5em;
-        grid-column: 6/10;
-        grid-row: 6/7;
-        box-shadow: 5px 5px 10px #000000;
+        line-height: 1.25em;
+        grid-column: 4/10;
+        grid-row: 1/2;
     }
     footer {
-        background-color:#0B3954;
+        background-color:#F9DBBD;
         color: #A4778B;
         padding: 25px 50px;
         margin-top: 200px;
@@ -108,7 +107,7 @@ h2 {
         font-family: 'Caveat', 'Abel';
         font-size: .8em;
         text-align: center;
-        padding: 35px;
+        padding: 30px;
     }
     footer a {
         background-color: #DDD1C7;
@@ -176,22 +175,22 @@ h2 {
         margin: 0 auto;
         width: 100%;
     }
-    .card-img, .banner {
+    .card-img {
         width: 100%;
         box-shadow: 5px 5px 10px #000000;
     }
     .ironman-card {
-        grid-column: 2/4;
-        grid-row: 2/3;
+        grid-column: 4/6;
+        grid-row: 3/3;
     }
     .november-card {
-        grid-column: 5/7;
-        grid-row: 2/3;
+        grid-column: 7/9;
+        grid-row: 3/3;
     }
     .banner {
         grid-column: 2/7;
-        grid-row: 5/8;
-        box-shadow: 5px 5px 10px #000000;
+        grid-row: 1/2;
+        width: 100%;
     }
     .card-img:hover {
         opacity: .6;
