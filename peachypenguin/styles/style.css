@@ -129,10 +129,10 @@ h2 {
         padding: 10px;
     }
     .ironman-card, .november-card {
-    margin-top: 200px 0;
+    margin: 200px 0;
     }
     .card-img {
-        border-radius: 10px solid #A4778B;
+        border: 10px solid #A4778B;
         transition: transform .5s;
         box-shadow: 5px 5px 10px #000000;
     }
